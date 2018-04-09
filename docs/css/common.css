@@ -1,0 +1,12 @@
+#loadingmessage {
+	background: url('../images/loading.gif') no-repeat;
+	display: none;
+    position: absolute;
+    top: 45%;
+    left: 48%;
+    width: 80px;
+    height: 80px;
+    z-index: 1002;
+    text-align:center;
+    overflow: auto;
+}

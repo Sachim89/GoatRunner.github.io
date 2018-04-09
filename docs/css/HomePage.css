@@ -1,0 +1,74 @@
+body, h1, h2, h3, h4, h5, h6 {
+	font-family: "Raleway", sans-serif
+}
+
+input[type=text], input[type=number] {
+    width: 100%;
+    padding: 12px 50px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    box-sizing: border-box;
+    text-align: left;
+    size: auto;
+}
+
+button {
+    background-color: #800000;
+    color: white;
+    padding: 14px 20px;
+    margin-left: 100px ;
+    border: none;
+    cursor: pointer;
+    width: 200px;
+}
+html {
+	height: 100%;
+	line-height: 1.8;
+}
+
+body {
+	padding: 0;
+	margin: 0;
+	overflow: hidden;
+	background-color: #ffffff;
+}
+.bgimg-1 {
+	background-position: center;
+	background-size: cover;
+	background-image: url("Logo.png");
+	min-height: 100%;
+	margin: auto;
+}
+
+ul {
+	float: top;
+	list-style-type: none;
+	margin: 0;
+	padding: 0;
+	overflow: hidden;
+	background-color: #ffffff;
+	margin-right: 70px;
+}
+
+li {
+	float: left;
+}
+
+li a {
+	display: block;
+	color: black;
+	text-align: center;
+	padding: 14px 16px;
+	text-decoration: none;
+}
+
+li a:hover {
+	background-color: #BFC9CA;
+}
+
+.container {
+    padding: 16px;
+    float: left;
+}
+

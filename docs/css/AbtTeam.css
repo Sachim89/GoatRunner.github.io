@@ -1,0 +1,70 @@
+h1, h2, h3, h4, h5, h6, .gr-slim, .gr-wide {
+	font-family: "Segoe UI", Arial, sans-serif
+}
+
+.gr-container:after, .gr-container:before, .gr-panel:after, .gr-panel:before,
+	.gr-row:after, .gr-row:before, .gr-row-padding:after, .gr-row-padding:before,
+	.gr-cell-row:before, .gr-cell-row:after, .gr-topnav:after, .gr-topnav:before,
+	.gr-clear:after, .gr-clear:before, .gr-btn-group:before, .gr-btn-group:after,
+	.gr-btn-bar:before, .gr-btn-bar:after, .gr-bar:before, .gr-bar:after {
+	content: "";
+	display: table;
+	clear: both
+}
+
+.gr-main, #main {
+	transition: margin-left .4s
+}
+.gr-padding {
+	padding: 8px 16px !important
+}
+
+@media ( max-width :992px) {
+	.gr-main {
+		margin-left: 0 !important;
+		margin-right: 0 !important
+	}
+}
+
+.gr-col, .gr-half, .gr-third, .gr-twothird, .gr-threequarter,
+	.gr-quarter {
+	float: left;
+	width: 100%
+}
+
+.gr-col.s12, .gr-half, .gr-third, .gr-twothird, .gr-threequarter,
+	.gr-quarter {
+	width: 99.99999%
+}
+
+@media ( min-width :601px) {
+	.gr-col.m3, .gr-quarter {
+		width: 24.99999%
+	}
+}
+
+@media ( min-width :993px) {
+	.gr-col.l3, .gr-quarter {
+		width: 24.99999%
+	}
+}
+
+.gr-row-padding, .gr-row-padding>.gr-half, .gr-row-padding>.gr-third,
+	.gr-row-padding>.gr-twothird, .gr-row-padding>.gr-threequarter,
+	.gr-row-padding>.gr-quarter, .gr-row-padding>.gr-col {
+	padding: 0 8px
+}
+
+.gr-content {
+	max-width: 980px;
+	margin: inherit;
+}
+
+.gr-center {
+	text-align: center !important
+}
+
+.gr-padding-16 {
+	padding-top: 16px !important;
+	padding-bottom: 16px !important
+}

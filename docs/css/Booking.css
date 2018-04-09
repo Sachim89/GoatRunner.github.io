@@ -1,0 +1,44 @@
+input[type=text], input[type=number] {
+    width: 100%;
+    padding: 12px 50px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    box-sizing: border-box;
+    text-align: left;
+    size: auto;
+}
+
+/* Set a style for all buttons */
+button {
+    background-color: #800000;
+    color: white;
+    padding: 14px 20px;
+    margin: 8px 0;
+    border: none;
+    cursor: pointer;
+    width: 100%;
+}
+
+button:hover {
+    opacity: 0.8;
+}
+.container {
+    padding: 16px;
+    float: left;
+}
+span.current {
+    float: center;
+    padding-top: 16px;
+}
+@media screen and (max-width: 300px) {
+    span.current {
+       display: block;
+       float: none;
+    }
+    .requestBtn {
+       width: 100%;
+    }
+    .current {
+       width: 100%;
+    }
